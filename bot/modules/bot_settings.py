@@ -582,8 +582,7 @@ async def load_config():
                 if len(temp) == 2:
                     shorteners_list.append({'domain': temp[0],'api_key': temp[1]})
 
-    config_dict.update({'ANIME_TEMPLATE': DEF_ANI_TEMP,
-                        'AS_DOCUMENT': AS_DOCUMENT,
+    config_dict.update({'AS_DOCUMENT': AS_DOCUMENT,
                         'AUTHORIZED_CHATS': AUTHORIZED_CHATS,
                         'AUTO_DELETE_MESSAGE_DURATION': AUTO_DELETE_MESSAGE_DURATION,
                         'BASE_URL': BASE_URL,

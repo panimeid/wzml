@@ -429,7 +429,6 @@ For the password, you can use a space!
 """
 
 default_desp = {'AS_DOCUMENT': 'Default type of Telegram file upload. Default is False mean as media.',
-                'ANIME_TEMPLATE': 'Set template for AniList Template. HTML Tags supported',
                 'AUTHORIZED_CHATS': 'Fill user_id and chat_id of groups/users you want to authorize. Separate them by space.',
                 'AUTO_DELETE_MESSAGE_DURATION': "Interval of time (in seconds), after which the bot deletes it's message and command message which is expected to be viewed instantly.\n\n <b>NOTE:</b> Set to -1 to disable auto message deletion.",
                 'BASE_URL': 'Valid BASE URL where the bot is deployed to use torrent web files selection. Format of URL should be http://myip, where myip is the IP/Domain(public) of your bot or if you have chosen port other than 80 so write it in this format http://myip:port (http and not https). Str',

@@ -1,6 +1,11 @@
 aiohttp
 aiofiles
 aioshutil
+aiohttp[speedups]
+tracemoepy
+lottie
+bs4
+jikanpy
 anytree==2.8.0
 apscheduler
 aria2p

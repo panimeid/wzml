@@ -551,24 +551,6 @@ if len(IMDB_TEMPLATE) == 0:
 
 <a href="{url_cast}">Read More ...</a>'''
 
-ANIME_TEMPLATE = environ.get('ANIME_TEMPLATE', '')
-if len(ANIME_TEMPLATE) == 0:
-    ANIME_TEMPLATE = '''<b>{ro_title}</b>({na_title})
-<b>Format</b>: <code>{format}</code>
-<b>Status</b>: <code>{status}</code>
-<b>Start Date</b>: <code>{startdate}</code>
-<b>End Date</b>: <code>{enddate}</code>
-<b>Season</b>: <code>{season}</code>
-<b>Country</b>: {country}
-<b>Episodes</b>: <code>{episodes}</code>
-<b>Duration</b>: <code>{duration}</code>
-<b>Average Score</b>: <code>{avgscore}</code>
-<b>Genres</b>: {genres}
-<b>Hashtag</b>: {hashtag}
-<b>Studios</b>: {studios}
-
-<b>Description</b>: <i>{description}</i>'''
-
 MDL_TEMPLATE = environ.get('MDL_TEMPLATE', '')
 if len(MDL_TEMPLATE) == 0:
     MDL_TEMPLATE = '''<b>Title:</b> {title}
@@ -584,8 +566,7 @@ if len(MDL_TEMPLATE) == 0:
 
 <a href='{url}'>Read More ...</a>'''
 
-config_dict = {'ANIME_TEMPLATE': ANIME_TEMPLATE,
-               'AS_DOCUMENT': AS_DOCUMENT,
+config_dict = {'AS_DOCUMENT': AS_DOCUMENT,
                'AUTHORIZED_CHATS': AUTHORIZED_CHATS,
                'AUTO_DELETE_MESSAGE_DURATION': AUTO_DELETE_MESSAGE_DURATION,
                'BASE_URL': BASE_URL,
